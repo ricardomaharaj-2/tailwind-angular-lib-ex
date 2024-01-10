@@ -1,0 +1,15 @@
+/* leaving out the base so default HTML styles remain */
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+/* below are the default styles placed by @angular/material */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
